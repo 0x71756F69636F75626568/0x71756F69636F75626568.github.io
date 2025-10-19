@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Warcraft III: Reign of Chaos",
+    "slug": "warcraft",
+    "genre": "Jeux de stratégie",
+    "release_date": "3 juillet 2002",
+    "description": "Insérer description pour Warcraft III"
+  },
+  {
+    "name": "Total Annihilation",
+    "slug": "total-annihilation",
+    "genre": "Jeux de stratégie",
+    "release_date": "25 septembre 1997",
+    "description": "Insérer description pour Total Annihilation."
+  },
+  {
+    "name": "StarCraft: Brood War",
+    "slug": "starcraft-brood-war",
+    "genre": "Jeux de stratégie",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour StarCraft: Brood War."
+  },
+  {
+    "name": "Age of Empires II: The Conquerors",
+    "slug": "age-of-empires-ii",
+    "genre": "Jeux de stratégie",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Age of Empires II: The Conquerors."
+  },
+  {
+    "name": "Minecraft Alpha/Beta",
+    "slug": "minecraft-alpha-beta",
+    "genre": "Aventure / RPG",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Minecraft Alpha/Beta ; Pre Microsoft ; 2010."
+  },
+  {
+    "name": "Garry's Mod",
+    "slug": "garrys-mod",
+    "genre": "Aventure / RPG",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Garry's Mod."
+  },
+  {
+    "name": "Sacred",
+    "slug": "sacred",
+    "genre": "Aventure / RPG",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Sacred."
+  },
+  {
+    "name": "Worms",
+    "slug": "worms",
+    "genre": "Arcade",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Worms."
+  },
+  {
+    "name": "Trackmania",
+    "slug": "trackmania",
+    "genre": "Arcade",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Trackmania."
+  },
+  {
+    "name": "FlatOut 2",
+    "slug": "flatout-2",
+    "genre": "Arcade",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour FlatOut 2."
+  },
+  {
+    "name": "Fifa 2",
+    "slug": "fifa-2",
+    "genre": "Arcade",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Fifa 2."
+  },
+  {
+    "name": "CS 1.6 / Source",
+    "slug": "cs-1-6-source",
+    "genre": "FPS",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour CS 1.6 / Source."
+  },
+  {
+    "name": "Halo",
+    "slug": "halo",
+    "genre": "FPS",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Halo."
+  },
+  {
+    "name": "Unreal, Quake",
+    "slug": "unreal-quake",
+    "genre": "FPS",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Unreal, Quake."
+  },
+  {
+    "name": "MW2 / BO1",
+    "slug": "mw2-bo1",
+    "genre": "FPS",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour MW2 / BO1."
+  },
+  {
+    "name": "Team Fortress 2",
+    "slug": "team-fortress-2",
+    "genre": "FPS",
+    "release_date": "Placeholder",
+    "description": "Insérer description pour Team Fortress 2."
+  }
+]
