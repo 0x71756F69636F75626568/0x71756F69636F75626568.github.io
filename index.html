@@ -7,13 +7,41 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <h1>Sélection de jeux</h1>
-    <div>
-      <button id="prev-btn">precedent</button>
-      <div id="game"></div>
-      <button id="next-btn">suivant</button>
+    <div class="background"></div>
+    <div class="container">
+      <header class="site-header">
+        <h1 class="site-title">0x71756F69636F75626568</h1>
+        <p class="site-subtitle">placeholder placeholder</p>
+      </header>
+
+      <div class="content">
+        <div class="sidebar">
+          <img src="https://placehold.co/100" alt="avatar" class="avatar" />
+          <h2 class="author-name">zeroX</h2>
+          <p class="author-desc">description</p>
+        </div>
+
+        <main class="main">
+          <article id="blog-post-1" class="blog-post">
+            <h2 class="blog-post-title">LA LAN ARRIVE !</h2>
+
+            <section id="blog-post-1-data" class="blog-post-content"></section>
+
+            <div class="controls">
+              <button type="button" id="prev-btn">précédent</button>
+              <button type="button" id="next-btn">suivant</button>
+            </div>
+
+            <p class="blog-post-meta">Dernière modification le 12 décembre 2023</p>
+          </article>
+
+          <footer class="main-footer">
+            <p>plus à venir...</p>
+          </footer>
+        </main>
+      </div>
     </div>
-    <p>Par 0x71756F69636F75626568</p>
+
     <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>

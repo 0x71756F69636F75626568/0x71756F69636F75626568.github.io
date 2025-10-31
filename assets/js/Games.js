@@ -11,7 +11,6 @@ export default class Games {
       if (!response.ok) {
         throw new Error("Failed to load games.");
       }
-
       this.games = await response.json();
     } catch (error) {
       console.error("Fatal: ", error);
@@ -19,27 +18,25 @@ export default class Games {
   }
 
   bind() {
-    document
-      .getElementById("prev-btn")
-      .addEventListener("click", () => this.prev());
-    document
-      .getElementById("next-btn")
-      .addEventListener("click", () => this.next());
+    document.getElementById("prev-btn").addEventListener("click", () => this.prev());
+    document.getElementById("next-btn").addEventListener("click", () => this.next());
   }
 
   render() {
     if (!this.element) {
-      this.element = document.getElementById("game");
+      this.element = document.getElementById("blog-post-1-data");
     }
 
     const game = this.games[this.index];
 
     this.element.innerHTML = `
-      <h2>${game.name}</h2>
       <img src="assets/images/${game.slug}.webp" alt="${game.slug}">
-      <p>Genre: ${game.genre}</p>
-      <p>Date de sortie: ${game.release_date}</p>
-      <p>${game.description}</p>
+      <div>
+        <h3>${game.name}</h3>
+        <p><strong>Genre:</strong> ${game.genre}</p>
+        <p><strong>Date de sortie:</strong> ${game.release_date}</p>
+        <p>${game.description}</p>
+      </div>
     `;
   }
 
