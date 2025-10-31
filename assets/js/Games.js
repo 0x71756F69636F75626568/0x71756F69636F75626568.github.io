@@ -31,7 +31,7 @@ export default class Games {
 
     this.element.innerHTML = `
       <img src="assets/images/${game.slug}.webp" alt="${game.slug}">
-      <div>
+      <div class="blog-post-content-description">
         <h3>${game.name}</h3>
         <p><strong>Genre:</strong> ${game.genre}</p>
         <p><strong>Date de sortie:</strong> ${game.release_date}</p>

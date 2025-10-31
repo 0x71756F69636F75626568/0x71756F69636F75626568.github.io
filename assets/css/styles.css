@@ -17,16 +17,18 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   overflow: hidden;
   height: 100vh;
+  padding: 0 1em;
 }
 
 .site-header {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
 }
 
 .site-title {
   color: #222;
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 0.25rem;
+  overflow: auto;
 }
 
 .site-subtitle {
@@ -66,7 +68,7 @@ body {
 
 .main {
   flex: 1;
-  padding: 1rem 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,14 +83,14 @@ body {
   font-size: 1.75rem;
   font-weight: bold;
   font-style: italic;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
   border-bottom: 1px solid #ddd;
 }
 
 .blog-post-meta {
   font-size: 0.85rem;
   font-style: italic;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
   border-top: 1px solid #ddd;
 }
 
@@ -97,11 +99,13 @@ body {
   gap: 1rem;
   align-items: flex-start;
   padding: 0.5rem;
+  height: 320px;
 }
 
 .blog-post-content img {
   width: 220px;
-  height: auto;
+  margin: auto 0;
+  max-height: 100%;
 }
 
 .blog-post-content h3 {
@@ -143,6 +147,13 @@ body {
 }
 
 @media (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+  .container {
+    padding: unset;
+    height: unset;
+  }
   .content {
     flex-direction: column;
   }
@@ -153,6 +164,7 @@ body {
   .blog-post-content {
     flex-direction: column;
     align-items: center;
+    height: unset;
   }
   .blog-post-content img {
     width: 100%;
