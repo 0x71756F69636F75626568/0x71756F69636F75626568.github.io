@@ -17,98 +17,112 @@
     "name": "StarCraft: Brood War",
     "slug": "starcraft-brood-war",
     "genre": "Jeux de stratégie",
-    "release_date": "Placeholder",
+    "release_date": "Decembre 1998",
     "description": "Insérer description pour StarCraft: Brood War."
   },
   {
-    "name": "Age of Empires II: The Conquerors",
+    "name": "Age of Empires II: The Age of Kings",
     "slug": "age-of-empires-ii",
     "genre": "Jeux de stratégie",
-    "release_date": "Placeholder",
-    "description": "Insérer description pour Age of Empires II: The Conquerors."
+    "release_date": "27 septembre 1999",
+    "description": "Insérer description pour Age of Empires II: The Age of Kings."
   },
   {
-    "name": "Minecraft Alpha/Beta",
-    "slug": "minecraft-alpha-beta",
+    "name": "Minecraft (version 1.0.0)",
+    "slug": "minecraft-1.0.0",
     "genre": "Aventure / RPG",
-    "release_date": "Placeholder",
-    "description": "Insérer description pour Minecraft Alpha/Beta ; Pre Microsoft ; 2010."
+    "release_date": "18 novembre 2011",
+    "description": "Insérer description pour Minecraft 1.0.0"
   },
   {
     "name": "Garry's Mod",
     "slug": "garrys-mod",
     "genre": "Aventure / RPG",
-    "release_date": "Placeholder",
+    "release_date": "29 novembre 2006",
     "description": "Insérer description pour Garry's Mod."
   },
   {
     "name": "Sacred",
     "slug": "sacred",
     "genre": "Aventure / RPG",
-    "release_date": "Placeholder",
+    "release_date": "27 février 2004",
     "description": "Insérer description pour Sacred."
   },
   {
-    "name": "Worms",
+    "name": "Worms Armageddon",
     "slug": "worms",
     "genre": "Arcade",
-    "release_date": "Placeholder",
+    "release_date": "29 janvier 1999",
     "description": "Insérer description pour Worms."
   },
   {
     "name": "Trackmania",
     "slug": "trackmania",
     "genre": "Arcade",
-    "release_date": "Placeholder",
+    "release_date": "21 novembre 2003",
     "description": "Insérer description pour Trackmania."
   },
   {
     "name": "FlatOut 2",
     "slug": "flatout-2",
     "genre": "Arcade",
-    "release_date": "Placeholder",
+    "release_date": "30 juin 2006",
     "description": "Insérer description pour FlatOut 2."
   },
   {
-    "name": "Fifa 2",
-    "slug": "fifa-2",
+    "name": "FIFA",
+    "slug": "fifa",
     "genre": "Arcade",
     "release_date": "Placeholder",
-    "description": "Insérer description pour Fifa 2."
+    "description": "Placeholder"
   },
   {
-    "name": "CS 1.6 / Source",
-    "slug": "cs-1-6-source",
+    "name": "CS Source",
+    "slug": "cs-source",
     "genre": "FPS",
-    "release_date": "Placeholder",
+    "release_date": "Octobre 2004",
     "description": "Insérer description pour CS 1.6 / Source."
   },
   {
-    "name": "Halo",
+    "name": "Halo: Combat Evolved",
     "slug": "halo",
     "genre": "FPS",
-    "release_date": "Placeholder",
+    "release_date": "15 novembre 2001",
     "description": "Insérer description pour Halo."
   },
   {
-    "name": "Unreal, Quake",
-    "slug": "unreal-quake",
+    "name": "Quake III Arena",
+    "slug": "quake-iii-arena",
     "genre": "FPS",
-    "release_date": "Placeholder",
-    "description": "Insérer description pour Unreal, Quake."
+    "release_date": "2 decembre 1999",
+    "description": "Insérer description pour Quake."
   },
   {
-    "name": "MW2 / BO1",
-    "slug": "mw2-bo1",
+    "name": "Unreal Tournament",
+    "slug": "unreal-tournament",
     "genre": "FPS",
-    "release_date": "Placeholder",
-    "description": "Insérer description pour MW2 / BO1."
+    "release_date": "22 novembre 1999",
+    "description": "Insérer description pour Unreal."
+  },
+  {
+    "name": "Call of Duty: Modern Warfare 2",
+    "slug": "cod-mw2",
+    "genre": "FPS",
+    "release_date": "10 novembre 2009",
+    "description": "Insérer description pour MW2"
+  },
+  {
+    "name": "Call of Duty: Black Ops",
+    "slug": "cod-bo1",
+    "genre": "FPS",
+    "release_date": "9 novembre 2010",
+    "description": "Insérer description pour BO1"
   },
   {
     "name": "Team Fortress 2",
     "slug": "team-fortress-2",
     "genre": "FPS",
-    "release_date": "Placeholder",
+    "release_date": "10 octobre 2007",
     "description": "Insérer description pour Team Fortress 2."
   }
 ]
